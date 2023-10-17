@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+html {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+body {
+  margin: 0 auto;
+  background-color: aqua;
+  padding: 60px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  border-radius: 20px;
+  border-width: 0;
+  background-color: red;
+  padding: 0.5em;
+}
+
+.main-container {
+  display: grid;
+  gap: 2em;
+}
+.side-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+#storyBoard {
+  font-size: 2em;
+  font-weight: bold;
+}
